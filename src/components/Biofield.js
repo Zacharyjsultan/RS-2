@@ -1,7 +1,7 @@
 import React from "react";
-import "./Portfolio.css";
+import "./Biofield.css";
 
-const Portfolio = () => {
+const Biofield = () => {
   const projects = [
     {
       name: "Error-Affirmations",
@@ -42,4 +42,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Biofield;
