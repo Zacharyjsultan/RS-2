@@ -20,7 +20,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="outlined">Contact</Button>
+            <Button variant="outlined">Email</Button>
           </a>
         </div>
       </header>

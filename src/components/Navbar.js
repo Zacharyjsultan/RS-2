@@ -17,26 +17,17 @@ const Navbar = () => {
         </Button>
         {isOpen && (
           <ul className="dropdown-buttons">
-            <li className="about-button">
-              <Link to="/about">About</Link>
-            </li>
-            <li className="projects-button">
-              <Link to="/portfolio">Portfolio</Link>
+            <li className="biofield-button">
+              <Link to="/biofield">Biofield</Link>
             </li>
             <li className="blog-button">
-              <Link to="/resume">Resume</Link>
+              <Link to="/blog">Blog</Link>
             </li>
-            <li>
-              {" "}
-              <a
-                className="Email"
-                href="mailto:zacharyjsultan@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                Email
-              </a>
+            <li className="about-button">
+              <Link to="/about">About Me</Link>
+            </li>
+            <li className="contact-button">
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         )}
