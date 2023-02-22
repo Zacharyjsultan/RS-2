@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Avatar from "@mui/material/Avatar";
 import "./Header.css";
 import Navbar from "./Navbar";
 
@@ -11,7 +11,14 @@ const Header = () => {
       <header>
         <div className="header-nav">
           <Link to="/" className="home-button">
-            <Button variant="outlined">Home</Button>
+            <Button variant="outlined">
+              {" "}
+              <Avatar
+                alt="little zach"
+                className="avatar"
+                src={`${process.env.PUBLIC_URL}/RS.png`}
+              />
+            </Button>
           </Link>
 
           <a

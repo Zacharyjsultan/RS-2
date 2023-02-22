@@ -12,7 +12,7 @@ export default function Footer() {
           <Avatar
             alt="little zach"
             className="avatar"
-            src={`${process.env.PUBLIC_URL}/Avatar.png`}
+            src={`${process.env.PUBLIC_URL}/RS.png`}
           />
         </Stack>
       </div>
