@@ -1,0 +1,12 @@
+.parallax {
+  background-attachment: scroll, local;
+  background-position: center;
+  height: 100vh;
+}
+
+.parallax-content {
+  padding: 100px 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #000000;
+}
