@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import About from "./Components/About";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
-import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
-import Resume from "./Components/Resume";
+
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Biofield from "./components/Biofield";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
+import About from "./components/About";
 
 function App() {
   return (
@@ -13,9 +15,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/biofield" element={<Biofield />} />
         <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <div>
         <Footer />
