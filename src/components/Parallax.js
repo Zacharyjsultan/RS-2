@@ -21,7 +21,7 @@ function Parallax() {
   return (
     <section className="parallax" style={parallaxStyle}>
       <div className="parallax-content">
-        <img src="/RS.png" alt="image" />
+        <img src="/RS.png" alt="rs" />
       </div>
     </section>
   );
