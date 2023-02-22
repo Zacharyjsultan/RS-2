@@ -22,7 +22,6 @@ function Parallax() {
     <section className="parallax" style={parallaxStyle}>
       <div className="parallax-content">
         <img src="/RS.png" alt="image" />
-        {/* REPLACE IMAGE WITH A REMOVED BACKGROUND */}
       </div>
     </section>
   );
