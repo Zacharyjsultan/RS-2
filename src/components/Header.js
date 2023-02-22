@@ -16,7 +16,7 @@ const Header = () => {
 
           <a
             className="Email"
-            href="mailto:zacharyjsultan@gmail.com"
+            href="mailto:RebeccaSultan@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

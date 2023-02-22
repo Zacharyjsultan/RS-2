@@ -1,6 +1,8 @@
-.footer {
+div.footer-container {
   display: flex;
   justify-content: flex-end;
   margin-right: 1.9vw;
-  margin-top: 5vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
