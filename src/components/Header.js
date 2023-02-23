@@ -11,7 +11,7 @@ const Header = () => {
       <header>
         <div className="header-nav">
           <Link to="/" className="home-button">
-            <Button variant="outlined">
+            <Button variant="contained">
               {" "}
               <Avatar
                 alt="little zach"
@@ -27,7 +27,14 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="outlined">Email</Button>
+            <Button
+              variant="contained"
+              onClick={() => {
+                alert("this will take your email");
+              }}
+            >
+              Email
+            </Button>
           </a>
         </div>
       </header>

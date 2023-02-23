@@ -6,6 +6,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="footer-container">
+      <div className="footer-text"></div>
       <div className="footer">
         {" "}
         <Stack direction="row" spacing={2}>

@@ -1,0 +1,15 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+}
+
+.mb-3.pt-0 {
+  margin-bottom: 3em;
+}
