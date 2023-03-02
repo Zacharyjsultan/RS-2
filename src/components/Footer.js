@@ -6,13 +6,29 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div className="footer-container">
+      <div className="footer-text">sdfsdfsd</div>
+      <a
+        className="Email"
+        href="mailto:RebeccaSultan@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          variant="contained"
+          onClick={() => {
+            alert("this will take your email");
+          }}
+        >
+          Email
+        </button>
+      </a>
       <div className="footer">
         {" "}
-        <Stack direction="row" spacing={2}>
+        <Stack direction="column" spacing={2}>
           <Avatar
-            alt="little zach"
+            alt="little rs"
             className="avatar"
-            src={`${process.env.PUBLIC_URL}/Avatar.png`}
+            src={`${process.env.PUBLIC_URL}/RS.png`}
           />
         </Stack>
       </div>

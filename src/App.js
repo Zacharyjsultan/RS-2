@@ -8,16 +8,20 @@ import Biofield from "./components/Biofield";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import About from "./components/About";
+import Appointments from "./components/Appointments";
 
 function App() {
   return (
     <div className="App">
       <Header />
+
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/biofield" element={<Biofield />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/appointments" element={<Appointments />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <div>

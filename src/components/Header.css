@@ -1,12 +1,22 @@
 .header-nav {
   display: flex;
   justify-content: space-between;
-  margin: 3vw;
-  padding: 1vw;
-  margin-right: 1vw;
-  margin-left: 4vw;
+  width: 100vw;
+
+  background-color: #ed5c2c;
+  border: 3px black solid;
 }
 
 .avatar {
   margin-left: 1em;
+}
+
+.home-button {
+  margin-left: 1em;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-right: ;
 }

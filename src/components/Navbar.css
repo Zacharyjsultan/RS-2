@@ -9,6 +9,8 @@ a {
   display: flex;
   justify-content: center;
   margin-left: 14vw;
+  padding: -5vh;
+  background-color: blanchedalmond;
 }
 .dropdown-buttons {
   display: flex;

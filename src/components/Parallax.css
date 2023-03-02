@@ -1,0 +1,16 @@
+.parallax {
+  display: flex;
+  justify-content: center;
+
+  background-attachment: fixed;
+
+  height: 100vh;
+}
+
+.parallax-content {
+  text-align: center;
+  background-color: #fffff4;
+  text-shadow: 2px 2px 4px #000000;
+  width: 75vw;
+  border-radius: 1vw;
+}
