@@ -10,6 +10,12 @@ a {
   justify-content: center;
   margin-left: 14vw;
   padding: -5vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(251, 131, 90, 1) 64%
+  );
 }
 .dropdown-buttons {
   display: flex;
