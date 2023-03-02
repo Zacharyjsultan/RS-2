@@ -24,4 +24,9 @@ button {
   background-color: aliceblue;
   border-radius: 1vw;
   box-shadow: 0 0 1vw 0.1vw #000000;
+  padding-top: 3vh;
+}
+
+.form {
+  padding: 4vh;
 }

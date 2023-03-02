@@ -4,6 +4,9 @@ import "./About.css";
 export default function About() {
   return (
     <div className="about-div">
+      <div className="selfie">
+        <img src="/RFace.jpeg" alt="rs" className="selfie" />
+      </div>
       <div>
         <h1>Rebecca Sultan:</h1> Master’s Degree in Counseling Psychology,
         Bachelor’s Degree in Psychology and Education, Licensed Marriage Family
