@@ -3,7 +3,7 @@ import "./Biofield.css";
 
 const Biofield = () => {
   return (
-    <div>
+    <div className="bio-container">
       <h1 className="zach">Biofield Tuning</h1>
       <h2 className="blog-header">What is BioField Tuning?</h2>
       <div>
