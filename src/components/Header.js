@@ -12,7 +12,7 @@ const Header = () => {
         <div className="header-nav">
           <Link to="/" className="home-button">
             <Button variant="contained">
-              {" "}
+              <h1>home</h1>{" "}
               <Avatar
                 alt="little zach"
                 className="avatar"
@@ -20,25 +20,11 @@ const Header = () => {
               />
             </Button>
           </Link>
-
-          <a
-            className="Email"
-            href="mailto:RebeccaSultan@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button
-              variant="contained"
-              onClick={() => {
-                alert("this will take your email");
-              }}
-            >
-              Email
-            </Button>
-          </a>
+          <div className="nav">
+            <Navbar />
+          </div>
         </div>
       </header>
-      <Navbar />
     </>
   );
 };
