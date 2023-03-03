@@ -26,4 +26,4 @@
 6. Who is your ideal customer?
    biofield tuning - customers
 7. what social media platforms are you using
-   instagram - @tuneinwithrebecca
+   instagram - @tuneinwithrebeccad
