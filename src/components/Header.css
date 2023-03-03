@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  height: 12vh;
 
   background-color: #ed5c2c;
-  border: 3px black solid;
+  border: 2px black solid;
 }
 
 .avatar {
@@ -13,10 +14,12 @@
 
 .home-button {
   margin-left: 1em;
+  display: flex;
+  justify-content: flex-start;
+  height: 7vh;
 }
 
 .nav {
   display: flex;
   justify-content: center;
-  margin-right: ;
 }

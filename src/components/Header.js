@@ -11,8 +11,8 @@ const Header = () => {
       <header>
         <div className="header-nav">
           <Link to="/" className="home-button">
-            <Button variant="contained">
-              <h1>home</h1>{" "}
+            <Button variant="contained" className="buttonhome">
+              <h3>home</h3>{" "}
               <Avatar
                 alt="little zach"
                 className="avatar"
