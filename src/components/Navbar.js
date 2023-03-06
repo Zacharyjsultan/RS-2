@@ -10,6 +10,7 @@ const Navbar = () => {
       <div className="right-nav">
         <Button
           variant="contained"
+          size="small"
           className="dropdown"
           onClick={() => setOpen(!isOpen)}
         >
@@ -22,9 +23,6 @@ const Navbar = () => {
             </li>
             <li className="biofield-button">
               <Link to="/biofield">What is BioField Tune-Up?</Link>
-            </li>
-            <li className="blog-button">
-              <Link to="/appointments">Appointments</Link>
             </li>
             <li className="blog-button">
               <Link to="/blog">Blog</Link>

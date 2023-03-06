@@ -9,12 +9,12 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Appointments from "./components/Appointments";
-
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
       <Header />
-
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
 

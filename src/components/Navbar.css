@@ -5,17 +5,19 @@ a {
   padding-top: 2vw;
 }
 
-.right-nav {
-  display: flex;
-  justify-content: center;
-  margin-left: 14vw;
-  padding: -5vh;
-  background-color: blanchedalmond;
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .right-nav {
+    display: flex;
+    justify-content: center;
+    margin-left: 14vw;
+    padding: -5vh;
+    backdrop-filter: blur(10px);
+    backdrop-filter: saturate(120%) blur(10px);
+  }
+  .dropdown-buttons {
+    display: flex;
+  }
 }
-.dropdown-buttons {
-  display: flex;
-}
-
 div.right-nav {
   margin: 4.2vw;
 }
