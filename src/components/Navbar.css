@@ -5,19 +5,19 @@ a {
   padding-top: 2vw;
 }
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .right-nav {
-    display: flex;
-    justify-content: center;
-    margin-left: 14vw;
-    padding: -5vh;
-    backdrop-filter: blur(10px);
-    backdrop-filter: saturate(120%) blur(10px);
-  }
-  .dropdown-buttons {
-    display: flex;
-  }
-}
-div.right-nav {
+.right-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  backdrop-filter: saturate(120%) blur(10px);
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 160px;
+  box-shadow: 0 4px 30px rgba(251, 251, 251, 0.1);
+  backdrop-filter: blur(10.9px);
+  -webkit-backdrop-filter: blur(10.9px);
   margin: 4.2vw;
+}
+.dropdown-buttons {
+  display: flex;
+  padding-bottom: 1vh;
 }
