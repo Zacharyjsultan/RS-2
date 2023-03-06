@@ -19,9 +19,23 @@ const Header = () => {
               />
             </Button>
           </Link>
-
+          <h2 className="rs">Rebecca Sultan</h2>
           <div className="nav">
-            {/* <a
+            <div className="contact-button">
+              <Button size="large " to="/contact">
+                Contact Form
+              </Button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </>
+  );
+};
+
+export default Header;
+
+/* <a
               className="Email"
               href="mailto:RebeccaSultan@gmail.com"
               target="_blank"
@@ -35,17 +49,4 @@ const Header = () => {
               >
                 Email
               </Button>
-            </a>{" "} */}
-            <div className="contact-button">
-              <Button size="medium " to="/contact">
-                Contact Form
-              </Button>
-            </div>
-          </div>
-        </div>
-      </header>
-    </>
-  );
-};
-
-export default Header;
+            </a>{" "} */
