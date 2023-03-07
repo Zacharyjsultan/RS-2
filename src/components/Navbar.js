@@ -14,7 +14,7 @@ const Navbar = () => {
           className="dropdown"
           onClick={() => setOpen(!isOpen)}
         >
-          <i className="menu-button"></i> Menu
+          <i className="menu-button">Menu</i>
         </Button>
         {isOpen && (
           <ul className="dropdown-buttons">
@@ -25,9 +25,11 @@ const Navbar = () => {
               <Link to="/biofield">What is BioField Tune-Up?</Link>
             </li>
             <li className="blog-button">
-              <Link to="/blog">Blog</Link>
+              <Link to="/holistic">Holistic Health</Link>
             </li>
-
+            <li className="contact-button">
+              <Link to="/pricing">Pricing</Link>
+            </li>
             <li className="contact-button">
               <Link to="/contact">Contact Form</Link>
             </li>

@@ -19,7 +19,7 @@ const Header = () => {
               />
             </Button>
           </Link>
-          <h2 className="rs">Rebecca Sultan</h2>
+          <img src="/tree.jpg" alt="rs" className="tree" />
           <div className="nav">
             <div className="contact-button">
               <Button size="large " to="/contact">
