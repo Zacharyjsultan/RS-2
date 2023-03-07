@@ -21,7 +21,7 @@ button {
   width: 100%; /* Make sure the container fills the available space */
   padding: 20px; /* Add some padding to the container */
   box-sizing: border-box; /* Make sure padding is included in the container's width */
-  background-color: aliceblue;
+  background-color: #fffff4;
   border-radius: 1vw;
   box-shadow: 0 0 1vw 0.1vw #000000;
   padding-top: 3vh;

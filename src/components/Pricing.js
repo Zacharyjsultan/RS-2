@@ -3,7 +3,7 @@ import "./Pricing.css";
 
 export default function Pricing() {
   return (
-    <div>
+    <div className="big-kahuna">
       <div className="jambomamba">
         <h2>Consultation</h2>
         <p>

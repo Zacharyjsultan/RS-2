@@ -1,11 +1,13 @@
 .holistic {
-  background-color: aliceblue;
+  background-color: #fffff4;
   height: 70vh;
   width: 70vw;
   padding: 2vw;
   display: flex;
   justify-content: center;
   margin: 1vh;
+  border-radius: 0.7vw;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
   border-radius: 0.7vw;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
