@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Avatar from "@mui/material/Avatar";
 import "./Header.css";
-import Navbar from "./Navbar";
 
 const Header = () => {
   return (
@@ -11,7 +10,7 @@ const Header = () => {
       <header>
         <div className="header-nav">
           <Link to="/" className="home-button">
-            <Button variant="contained" className="buttonhome">
+            <Button variant="contained" size="small" className="button-home">
               <h3>home</h3>{" "}
               <Avatar
                 alt="little zach"
@@ -20,8 +19,13 @@ const Header = () => {
               />
             </Button>
           </Link>
+          <img src="/tree.jpg" alt="rs" className="tree" />
           <div className="nav">
-            <Navbar />
+            <div className="contact-button">
+              <Button size="large " to="/contact">
+                Contact Form
+              </Button>
+            </div>
           </div>
         </div>
       </header>
@@ -30,3 +34,19 @@ const Header = () => {
 };
 
 export default Header;
+
+/* <a
+              className="Email"
+              href="mailto:RebeccaSultan@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                variant="unstyled"
+                onClick={() => {
+                  alert("this will take your email");
+                }}
+              >
+                Email
+              </Button>
+            </a>{" "} */
