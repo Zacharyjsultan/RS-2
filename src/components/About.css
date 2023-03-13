@@ -1,16 +1,21 @@
 .about-div {
-  background-color: aliceblue;
-  display: block;
-
+  background-color: rgb(255, 242, 222);
+  text-align: center;
   height: fit-content;
-
+  width: fit-content;
   padding: 2vw;
-  margin: 1vh;
+
+  margin: 1vh auto;
   border-radius: 0.7vw;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .selfie {
-  width: 280px;
+  width: 270px;
   height: 200px;
+  margin-bottom: 20px;
+  margin: 0 auto;
 }

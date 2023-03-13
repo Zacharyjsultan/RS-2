@@ -1,11 +1,31 @@
 .jambomamba {
-  background-color: aliceblue;
+  background-color: rgb(255, 242, 222);
   height: 70vh;
   width: 70vw;
   padding: 2vw;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  height: fit-content;
   margin: 1vh;
+  margin-bottom: 8vh;
   border-radius: 0.7vw;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.big-kahuna {
+  display: flex;
+  justify-content: center;
+}
+
+.consultation-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
