@@ -19,10 +19,10 @@ const Header = () => {
               />
             </Button>
           </Link>
-          <img src="/tree.jpg" alt="rs" className="tree" />
+          <img src="/tree.png" alt="rs" className="tree" />
           <div className="nav">
             <div className="contact-button">
-              <Button size="large " to="/contact">
+              <Button size="larger " to="/contact">
                 Contact Form
               </Button>
             </div>

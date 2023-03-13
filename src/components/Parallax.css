@@ -4,7 +4,7 @@
 
   background-attachment: fixed;
 
-  height: 100vh;
+  height: fit-content;
 }
 
 .parallax-content {
@@ -13,4 +13,5 @@
   text-shadow: 2px 2px 4px #000000;
   width: 75vw;
   border-radius: 1vw;
+  margin-bottom: 8vh;
 }

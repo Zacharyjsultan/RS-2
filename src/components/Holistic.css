@@ -1,10 +1,11 @@
 .holistic {
-  background-color: #fffff4;
+  background-color: rgb(255, 242, 222);
   height: 70vh;
   width: 70vw;
   padding: 2vw;
   display: flex;
   justify-content: center;
+  height: fit-content;
   margin: 1vh;
   border-radius: 0.7vw;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
